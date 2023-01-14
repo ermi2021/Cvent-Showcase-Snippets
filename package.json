@@ -1,0 +1,26 @@
+{
+    "name": "cventSnippets",
+    "displayName": "Cvent Showcase Snippets",
+    "description": "Bye Bye inspect while cloning from Cvent showcase",
+    "version": "0.0.1",
+    "repository": {"url": "https://github.com/ermi2021/Cvent-Showcase-Snippets.git"},
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "icon":"icon.png",
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path":"./snippets/jsvascript.code-snippets"
+            }
+        ]
+    }
+}
