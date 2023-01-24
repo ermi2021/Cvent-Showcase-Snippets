@@ -1,26 +1,37 @@
 {
-    "name": "cventSnippets",
-    "displayName": "Cvent Showcase Snippets",
-    "description": "Bye Bye inspect while cloning from Cvent showcase",
-    "version": "0.0.1",
-    "repository": {"url": "https://github.com/ermi2021/Cvent-Showcase-Snippets.git"},
-    "engines": {
-        "vscode": "^1.74.0"
-    },
-    "icon":"icon.png",
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "html",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "javascript",
-                "path":"./snippets/jsvascript.code-snippets"
-            }
-        ]
-    }
+	"name": "Cvent-showcase-snippets",
+	"displayName": "Cvent Showcase Snippets",
+	"publisher": "ErmiyasZeleke",
+	"description": "Bye Bye inspect while cloning from Cvent showcase",
+	"version": "1.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ermi2021/Cvent-Showcase-Snippets.git"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "72096cda-ad6d-4d90-9ff0-5dab84c83b7c",
+		"publisherId": "8bf782bf-bf52-4b9a-a3b5-6936483f896b",
+		"publisherDisplayName": "Ermiyas Zeleke",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1673698894859,
+		"preRelease": false
+	}
 }
